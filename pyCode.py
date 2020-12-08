@@ -11,7 +11,7 @@ app= Flask(__name__)
 num_samples_total = 32
 
 # Generate data
-dataset=pd.read_csv('\home\ubuntu\TrainingV5.csv')
+dataset=pd.read_csv('/home/ubuntu/TrainingV5.csv')
 
 x=dataset.iloc[:,0:num_samples_total]
 y=dataset.iloc[:,num_samples_total]
